@@ -1,4 +1,3 @@
-**# Data Structures and Algorithms**
 I am beginning my journey to learn Data Structures and Algorithms, and I plan to document my learning process here.
 This repository will serve as a record of my progress, encompassing all the materials I encounter throughout this journey.
 **It is going to be more on building conceptual knowledge and logical reasoning skills rather than just coding.**
