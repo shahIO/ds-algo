@@ -1,5 +1,5 @@
 
-# Data Structures and Algorithms <Python|Java>
+# Data Structures and Algorithms
 
 This repository will serve as a record of my progress in ds-algo, containing all the solutions and concepts I encounter throughout the journey.
 The focus here is more on conceptual knowledge and logic-building rather than just code.
