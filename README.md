@@ -31,3 +31,6 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 - **Trie**
 - **Segment and Binary Indexed Trees**
 - **Disjoint Set**
+  
+## Project
+- **Sudoku Solver**
