@@ -35,3 +35,4 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 ## Project
 - **Sudoku Solver**
 - **Shortest Path Finder**
+- **Tic Tac Toe**
