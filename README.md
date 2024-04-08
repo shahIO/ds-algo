@@ -36,3 +36,4 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 - **Sudoku Solver**
 - **Shortest Path Finder**
 - **Tic Tac Toe**
+- **N Queens Visualizer**
