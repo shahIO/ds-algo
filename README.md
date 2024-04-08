@@ -37,3 +37,4 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 - **Shortest Path Finder**
 - **Tic Tac Toe**
 - **N Queens Visualizer**
+- **Binary Tree Visualizer**
