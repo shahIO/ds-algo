@@ -1,3 +1,14 @@
 .idea/
 *.exe
 .vscode/
+obj/
+bin/
+*.dll
+*.pdb
+*.cache
+*.tmp
+*.user
+*.suo
+*.csproj
+*.log
+*.vs/
