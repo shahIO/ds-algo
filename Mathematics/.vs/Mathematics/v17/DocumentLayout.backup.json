@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shahm\\ds-algo\\Mathematics\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{032427E0-2AC2-4E21-B9DC-E7448511B882}|Mathematics\\Mathematics.csproj|c:\\users\\shahm\\ds-algo\\mathematics\\mathematics\\countdigit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032427E0-2AC2-4E21-B9DC-E7448511B882}|Mathematics\\Mathematics.csproj|solutionrelative:mathematics\\countdigit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{032427E0-2AC2-4E21-B9DC-E7448511B882}|Mathematics\\Mathematics.csproj|c:\\users\\shahm\\ds-algo\\mathematics\\mathematics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{032427E0-2AC2-4E21-B9DC-E7448511B882}|Mathematics\\Mathematics.csproj|solutionrelative:mathematics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shahm\\ds-algo\\Mathematics\\Mathematics\\Program.cs",
+              "RelativeDocumentMoniker": "Mathematics\\Program.cs",
+              "ToolTip": "C:\\Users\\shahm\\ds-algo\\Mathematics\\Mathematics\\Program.cs",
+              "RelativeToolTip": "Mathematics\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:42:21.207Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountDigit.cs",
+              "DocumentMoniker": "C:\\Users\\shahm\\ds-algo\\Mathematics\\Mathematics\\CountDigit.cs",
+              "RelativeDocumentMoniker": "Mathematics\\CountDigit.cs",
+              "ToolTip": "C:\\Users\\shahm\\ds-algo\\Mathematics\\Mathematics\\CountDigit.cs",
+              "RelativeToolTip": "Mathematics\\CountDigit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:42:19.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
