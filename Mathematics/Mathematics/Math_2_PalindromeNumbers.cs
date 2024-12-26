@@ -13,17 +13,29 @@ namespace Mathematics
 {
     public class Math_2_PalindromeNumbers
     {
-        public static bool IsPalindrome(int x)
+        public static bool IsPalindrome(int input)
         {
             int reversed = 0;
-            int number = x;
-            while (x > 0)
+            int number = input;
+            while (input > 0)
             {
-                int lastDigit = x % 10;
+                int lastDigit = input % 10;
                 reversed = reversed * 10 + lastDigit;
-                x /= 10;
+                input /= 10;
             }
             return number == reversed;
+        }
+
+        public static bool IsPalindrome(string input)
+        {
+            char[] reversed = new char[input.Length];
+            for(int i = 0; i < input.Length ; i++)
+            {
+                reversed[i] = input[input.Length - 1 - i];
+            }
+            string reversedString = new (reversed);
+            
+            return input == reversedString;
         }
     }
 }
