@@ -9,33 +9,45 @@
 //=> Comparison: After reversing, compare the reversed number with the original number. If they are the same, the number is a palindrome. Otherwise, it is not.
 //============
 
+using System.Text;
+using System.Text.RegularExpressions;
+
 namespace Mathematics
 {
-    public class Math_2_PalindromeNumbers
+    public class Math_2_Palindrome
     {
+        // T-> O(n) S-> O(1)
         public static bool IsPalindrome(int input)
         {
-            int reversed = 0;
-            int number = input;
-            while (input > 0)
+            int reversedInput = 0;
+            int originalInput = input;
+
+            while(input > 0)
             {
                 int lastDigit = input % 10;
-                reversed = reversed * 10 + lastDigit;
+                reversedInput = reversedInput * 10 + lastDigit;
                 input /= 10;
             }
-            return number == reversed;
+
+            return originalInput == reversedInput;
         }
 
         public static bool IsPalindrome(string input)
         {
-            char[] reversed = new char[input.Length];
-            for(int i = 0; i < input.Length ; i++)
-            {
-                reversed[i] = input[input.Length - 1 - i];
-            }
-            string reversedString = new (reversed);
+            string cleanInput = Regex.Replace(input, "[^a-zA-Z0-9]", "").ToLower();
+        
+            int left = 0;
+            int right = cleanInput.Length - 1;
             
-            return input == reversedString;
+            while (left < right) {
+                if (cleanInput[left] != cleanInput[right]) {
+                    return false;
+                }
+                left++;
+                right--;
+            }
+            
+            return true;
         }
     }
 }
