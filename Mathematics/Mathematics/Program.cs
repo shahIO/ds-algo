@@ -26,7 +26,12 @@
             // Console.WriteLine(Math_3_FactorialNumber.CalculateFactorial(100));
             // Console.WriteLine(Math_3_FactorialNumber.CalculateTrailingZeroes_Naive(5));
             // Console.WriteLine(Math_4_TrailingZerosInFactorial.CalculateTrailingZeroes_Naive(115));
-            Console.WriteLine(Math_4_TrailingZerosInFactorial.CalculateTrailingZeroes_Optimum(115));
+            // Console.WriteLine(Math_4_TrailingZerosInFactorial.CalculateTrailingZeroes_Optimum(115));
+
+            // Console.WriteLine(Math_5_HCF.CalculateHCF_Naive(100, 200));
+            // Console.WriteLine(Math_5_HCF.CalculateHCF_EuclideanAlgo(12,98));
+            Console.WriteLine(Math_5_HCF.CalculateHCF_EuclideanAlgoOptimized(24, 98));
+
         }   
     }
 }
