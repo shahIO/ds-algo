@@ -25,9 +25,8 @@
             // Console.WriteLine(Math_3_FactorialNumber.CalculateFactorial(0));
             // Console.WriteLine(Math_3_FactorialNumber.CalculateFactorial(100));
             // Console.WriteLine(Math_3_FactorialNumber.CalculateTrailingZeroes_Naive(5));
-            Console.WriteLine(Math_3_FactorialNumber.CalculateTrailingZeroes_Optim(125));
-
-
+            // Console.WriteLine(Math_4_TrailingZerosInFactorial.CalculateTrailingZeroes_Naive(115));
+            Console.WriteLine(Math_4_TrailingZerosInFactorial.CalculateTrailingZeroes_Optimum(115));
         }   
     }
 }
