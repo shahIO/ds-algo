@@ -35,21 +35,24 @@
             // Console.WriteLine(Math_6_LCM.CalcLCM_Naive(15, 20));
             // Console.WriteLine(Math_6_LCM.CalcLCM_Optimized(15, 20));
 
-            for(int i = 0; i <= 100; i++)
-            {
-                if(Math_7_CheckPrime.IsPrime_Naive(i)) {
-                    Console.WriteLine($"{i}");   
-                }
-            }
+            // for(int i = 0; i <= 100; i++)
+            // {
+            //     if(Math_7_CheckPrime.IsPrime_Naive(i)) {
+            //         Console.WriteLine($"{i}");   
+            //     }
+            // }
 
-            for(int i = 0; i <= 100; i++)
-            {
-                if(Math_7_CheckPrime.IsPrime_Optimized(i)) {
-                    Console.WriteLine($"{i}");   
-                }
-            }
+            // for(int i = 0; i <= 100; i++)
+            // {
+            //     if(Math_7_CheckPrime.IsPrime_Optimized(i)) {
+            //         Console.WriteLine($"{i}");   
+            //     }
+            // }
 
-            Console.WriteLine(Math_7_CheckPrime.IsPrime_MoreOptimized(4));
+            // Console.WriteLine(Math_7_CheckPrime.IsPrime_MoreOptimized(4));
+
+            // Math_8_PrimeFactors.PrimeFactors(84);
+            Math_8_PrimeFactors.PrimeFactors_Optimize(84);
         }   
     }
 }
