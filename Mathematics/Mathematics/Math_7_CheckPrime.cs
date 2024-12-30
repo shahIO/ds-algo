@@ -33,7 +33,7 @@
 
 namespace Mathematics
 {
-    public class Math_7_Prime()
+    public class Math_7_CheckPrime()
     {
         public static bool IsPrime_Naive(int n)
         {
