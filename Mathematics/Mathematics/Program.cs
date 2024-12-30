@@ -52,7 +52,18 @@
             // Console.WriteLine(Math_7_CheckPrime.IsPrime_MoreOptimized(4));
 
             // Math_8_PrimeFactors.PrimeFactors(84);
-            Math_8_PrimeFactors.PrimeFactors_Optimize(84);
+            // Math_8_PrimeFactors.PrimeFactors_Optimize(84);
+
+            // Math_9_AllDivisors.AllDivisors_Naive(100);
+            // Math_9_AllDivisors.AllDivisors_Optimize_NotSorted(100);
+            // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(100);
+            // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(84);
+            Math_9_AllDivisors.AllDivisors_Optimize_Sorted(1);
+            // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(2);
+
+
+
+
         }   
     }
 }
