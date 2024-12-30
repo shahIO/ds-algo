@@ -32,9 +32,24 @@
             // Console.WriteLine(Math_5_HCF.CalculateHCF_EuclideanAlgo(12,98));
             // Console.WriteLine(Math_5_HCF.CalculateHCF_EuclideanAlgoOptimized(24, 98));
 
-            Console.WriteLine(Math_6_LCM.CalcLCM_Naive(15, 20));
-            Console.WriteLine(Math_6_LCM.CalcLCM_Optimized(15, 20));
+            // Console.WriteLine(Math_6_LCM.CalcLCM_Naive(15, 20));
+            // Console.WriteLine(Math_6_LCM.CalcLCM_Optimized(15, 20));
 
+            // for(int i = 0; i <= 100; i++)
+            // {
+            //     if(Math_7_Prime.IsPrime_Naive(i)) {
+            //         Console.WriteLine($"{i}");   
+            //     }
+            // }
+
+            // for(int i = 0; i <= 100; i++)
+            // {
+            //     if(Math_7_Prime.IsPrime_Optimized(i)) {
+            //         Console.WriteLine($"{i}");   
+            //     }
+            // }
+
+            Console.WriteLine(Math_7_Prime.IsPrime_MoreOptimized(4));
         }   
     }
 }
