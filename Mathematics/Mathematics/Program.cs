@@ -58,8 +58,10 @@
             // Math_9_AllDivisors.AllDivisors_Optimize_NotSorted(100);
             // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(100);
             // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(84);
-            Math_9_AllDivisors.AllDivisors_Optimize_Sorted(1);
+            // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(1);
             // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(2);
+
+            Math_10_Sieve_Of_Eratosthenes.AllPrimes(499979);
 
 
 
