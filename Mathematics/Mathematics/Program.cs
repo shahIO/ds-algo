@@ -61,11 +61,12 @@
             // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(1);
             // Math_9_AllDivisors.AllDivisors_Optimize_Sorted(2);
 
-            Math_10_Sieve_Of_Eratosthenes.AllPrimes(499979);
-
-
-
-
-        }   
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(499979));
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(0));
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(1));
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(2));
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(3));
+            Console.WriteLine(Math_10_Sieve_Of_Eratosthenes.AllPrimes(4));
+        }
     }
 }
