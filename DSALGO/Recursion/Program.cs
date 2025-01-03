@@ -1,7 +1,16 @@
-﻿internal class Program
+﻿namespace Recursion
 {
-    private static void Main(string[] args)
+    public class Program
     {
-        Console.WriteLine("Recursion!");
+        private static void Main(string[] args)
+        {
+            //Console.WriteLine("Before fun2!");
+            //Recur_1_Intro.fun2();
+            //Console.WriteLine("Afterfun2!");
+
+            //Recur_1_Intro.foo();
+
+            Recur_1_Intro.bar(3);
+        }
     }
 }
