@@ -8,7 +8,7 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 ## Roadmap
 
 - **Analysis of Algorithms**
-- **Mathematics**
+- **Mathematics** ✅
 - **Bit Magic**
 - **Recursion**
 - **Arrays**
