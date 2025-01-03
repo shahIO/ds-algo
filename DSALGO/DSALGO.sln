@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Mathematics\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMagic", "BitMagic\BitMagic.csproj", "{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{D92043E5-A240-4536-85D8-E1C210B845EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92043E5-A240-4536-85D8-E1C210B845EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92043E5-A240-4536-85D8-E1C210B845EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92043E5-A240-4536-85D8-E1C210B845EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92043E5-A240-4536-85D8-E1C210B845EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
