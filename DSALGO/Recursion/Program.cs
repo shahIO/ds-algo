@@ -10,7 +10,11 @@
 
             //Recur_1_Intro.foo();
 
-            Recur_1_Intro.bar(3);
+            //Recur_1_Intro.bar(3);
+
+            //Recur_1_Intro.func1(3);
+            Recur_1_Intro.func2(4);
+
         }
     }
 }
