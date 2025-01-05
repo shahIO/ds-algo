@@ -14,7 +14,13 @@ namespace DS_2_BitMagic
     {
         public static bool IsKthBitIsSet_Naive(int n, int k)
         {
-            if (n & Math.Pow(2, k - 1) == 0)
+            int x = 1; ;
+            for(int i = 1; i<= k-1; i++)
+            {
+                x = x * 2;
+            }
+
+            if ((n & x) == 0)
             {
                 return false;
             } else
