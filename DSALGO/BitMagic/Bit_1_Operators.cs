@@ -1,4 +1,4 @@
-﻿namespace BitMagic
+﻿namespace DS_2_BitMagic
 {
     public class Bit_1_Operators
     {
