@@ -1,6 +1,6 @@
 ﻿namespace BitMagic
 {
-    public class Bit_Operators
+    public class Bit_1_Operators
     {
         //If both bits are 1, result is 1. Otherwise, result bit is set to 0.
         public static int AndOperator(int a, int b)

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mathematics", "Mathematics\Mathematics.csproj", "{032427E0-2AC2-4E21-B9DC-E7448511B882}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_1_Mathematics", "Mathematics\DS_1_Mathematics.csproj", "{032427E0-2AC2-4E21-B9DC-E7448511B882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitMagic", "BitMagic\BitMagic.csproj", "{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_2_BitMagic", "BitMagic\DS_2_BitMagic.csproj", "{E7A7D666-3BBA-4DE3-873E-071A84D06CAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{D92043E5-A240-4536-85D8-E1C210B845EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_3_Recursion", "Recursion\DS_3_Recursion.csproj", "{D92043E5-A240-4536-85D8-E1C210B845EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
