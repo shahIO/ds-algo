@@ -12,6 +12,17 @@
 // Right shift 'n' to check the next bit in the next iteration
 // Time complexity = O(number of bits in n)
 
+//Optitmize
+// Instead of checking each bit individually by left shifting,
+// Brian Kernighan's Algorithm states to count the number of set bits (1s).
+// The algorithm uses the expression 'n & (n - 1)' to turn off the rightmost set bit.
+
+// For example, if n = 40 (101000 in binary):
+// n - 1 = 39 (100111 in binary)
+// => 101000 & 100111 = 100000 (32 in decimal)
+// Repeatedly applying this will turn off each set bit, one by one, and the count of iterations gives the number of set bits.
+
+
 namespace DS_2_BitMagic
 {
     public class Bit_3_CountSetBit
@@ -33,6 +44,7 @@ namespace DS_2_BitMagic
 
         public static int CountSetBit_Optimize(int n)
         {
+            //Brain Kerningam's Algorithm
             int count = 0;
             
             while(n != 0)
