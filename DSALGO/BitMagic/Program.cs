@@ -17,7 +17,10 @@
             //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 4));
             //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 5));
 
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Optimize(18, 4));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Optimize(18, 4));
+
+            Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Naive(180));
+
         }
 
     }
