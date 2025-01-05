@@ -1,18 +1,23 @@
-﻿//Check if Kth bit is set or not
-// E.g n = 8, k = 2
-// Second bit of binary representation of 8 is set or not i.e. 1 or not
-// Binary representation of 8 is 1000 and second bit is zero which is not set.
-// False
+﻿// Check if the k-th bit is set or not in the binary representation of a number
+// For example:
+// n = 8, k = 2
+// Binary representation of 8 is 1000 and the 2nd bit is 0 (not set) => False
+// n = 5, k = 3
+// Binary representation of 5 is 101 and the 3rd bit is 1 (set) => True
 
-// E.g n = 5, k = 3
-// 5 = 101; and 3 bit is set
-// True
+// Naive approach
+// To check if a bit is 1 or 0, use the '&' operator
+// 0 & 1 = 0; 1 & 1 = 1
+// To check if the k-th bit in 'n' is 1 or 0, use the '&' operator with a number where only the k-th bit is 1
+// Example: if k = 3, use the number 100 (which is 4 in decimal)
+// n = 18, k = 3, (18 & 4)
+// Time complexity = O(k)
 
-//Naive
-// TO check if a bit b is 1 or not, use & operator => 0 & 1 = 0; 1 & 1 = 1
-// Now to check for n if kth bit is 1 or 0, use & oprator with number whose kth bit is 1 and reset is 0
-// Eg. if k = 5, then perform '&' operation with number 1000 i.e. 8
-// n = 18, k = 5 then (18 & 8)
+// Optimized approach 
+// Instead of looping k-1 times to create a number with only the k-th bit set to 1, 
+// use the left shift operator: 1 << (k - 1) 
+// Example: 1 << 2 == 4, 1 << 3 == 8, 1 << 4 == 16 
+// Then use the '&' operator
 
 namespace DS_2_BitMagic
 {
@@ -26,6 +31,18 @@ namespace DS_2_BitMagic
                 x = x * 2;
             }
 
+            if ((n & x) == 0)
+            {
+                return false;
+            } else
+            {
+                return true;
+            }
+        }
+
+        public static bool IsKthBitIsSet_Optimize(int n, int k)
+        {
+            int x = 1 << k - 1;
             if ((n & x) == 0)
             {
                 return false;

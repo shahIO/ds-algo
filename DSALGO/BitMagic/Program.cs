@@ -11,11 +11,13 @@
             //Console.WriteLine(Bit_1_Operators.LeftShiftOperator(13));
             //Console.WriteLine(Bit_1_Operators.RightShiftOperator(13));
 
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 1));
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 2));
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 3));
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 4));
-            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 5));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 1));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 2));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 3));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 4));
+            //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Naive(18, 5));
+
+            Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Optimize(18, 4));
         }
 
     }
