@@ -19,9 +19,11 @@
 
             //Console.WriteLine(Bit_2_KthBitIsSetOrNot.IsKthBitIsSet_Optimize(18, 4));
 
-            Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Naive(180));
-            Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Optimize(180));
+            //Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Naive(180));
+            //Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Optimize(180));
 
+
+            Console.WriteLine(Bit_4_PowerOfTwo.Check_Naive(1));
 
         }
 
