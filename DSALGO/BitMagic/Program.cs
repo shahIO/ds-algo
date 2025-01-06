@@ -23,7 +23,9 @@
             //Console.WriteLine(Bit_3_CountSetBit.CountSetBit_Optimize(180));
 
 
-            Console.WriteLine(Bit_4_PowerOfTwo.Check_Naive(1));
+            //Console.WriteLine(Bit_4_PowerOfTwo.Check_Naive(1));
+            Console.WriteLine(Bit_4_PowerOfTwo.Check_Optimize(1));
+
 
         }
 

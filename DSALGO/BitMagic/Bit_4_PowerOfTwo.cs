@@ -20,5 +20,10 @@ namespace DS_2_BitMagic
             }
             return false;
         }
+
+        public static bool Check_Optimize(int input)
+        {
+            return input > 0 && (input & (input - 1)) == 0;
+        }
     }
 }
