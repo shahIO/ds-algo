@@ -27,6 +27,7 @@ namespace DS_2_BitMagic
 
         public static bool Check_Optimize(int input)
         {
+            // A power of 2 must be greater than 0 and must have only one bit set
             return input > 0 && (input & (input - 1)) == 0;
         }
     }
