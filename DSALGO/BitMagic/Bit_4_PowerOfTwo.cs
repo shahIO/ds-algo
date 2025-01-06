@@ -3,6 +3,10 @@
 // If n matches the input during the iteration, it returns true.
 // If the loop completes without finding a match, it returns false.
 
+//Optimize
+//We can use the property that a power of 2 has only one bit set in its binary representation.
+//The expression (n & (n - 1)) == 0 can be used to check if a number is a power of 2.
+
 namespace DS_2_BitMagic
 {
     public class Bit_4_PowerOfTwo
