@@ -58,7 +58,7 @@
             for (int i = 0; i < evenOccuranceTestCases.Length; i++)
             {
                 int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(evenOccuranceTestCases[i]);
-                Console.WriteLine(result);
+                //Console.WriteLine(result);
 
                 int optResult = Bit_5_FindOddOccuring.FindOddOccurring_Optimized(evenOccuranceTestCases[i]);
                 Console.WriteLine(optResult);
