@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Naive
+// TIme Complexity O(n*n)
 
+//Optimize
+// Time Complexity O(n)
 namespace DS_2_BitMagic
 {
     public class Bit_5_FindOddOccuring
