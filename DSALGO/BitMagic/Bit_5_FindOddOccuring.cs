@@ -1,8 +1,15 @@
 ﻿// Naive
+// Check each element's count in the array.
+// Iterate through the array, counting each element's occurrences.
+// Return the element with an odd count.
 // TIme Complexity O(n*n)
 
 //Optimize
+// Use XOR to find the odd occurring number.
+// XOR all elements; pairs cancel out, leaving the odd one.
+// Return the final XOR result.
 // Time Complexity O(n)
+
 namespace DS_2_BitMagic
 {
     public class Bit_5_FindOddOccuring
