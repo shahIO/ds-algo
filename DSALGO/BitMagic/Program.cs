@@ -42,6 +42,9 @@
             {
                 int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(testCases[i]);
                 Console.WriteLine(result);
+
+                int optResult = Bit_5_FindOddOccuring.FindOddOccurring_Optimized(testCases[i]);
+                Console.WriteLine(optResult);
             }
         }
 

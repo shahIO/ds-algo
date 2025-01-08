@@ -14,7 +14,7 @@ namespace DS_2_BitMagic
             {
                 int count = 0;
                 // Count the occurrences of arr[i]
-                for (int j = 0; j < arr.Length; j++) 
+                for (int j = 0; j < arr.Length; j++)
                 {
                     if (arr[i] == arr[j])
                     {
@@ -29,6 +29,16 @@ namespace DS_2_BitMagic
             }
             //Return - 1 if no odd occurrence is found (should not happen if the problem guarantees one odd occurring number)
             return -1;
+        }
+
+        public static int FindOddOccurring_Optimized(int[] arr)
+        {
+            int result = 0; // XOR all elements in the array
+            foreach (int num in arr)
+            {
+                result ^= num;
+            }
+            return result;
         }
     }
 }
