@@ -40,18 +40,27 @@
             {
                 [3, 3, 3, 3],
                 [4, 5, 4, 5, 4, 5],
-                [10, 20, 20, 10, 20],
+                [10, 20, 20, 10, 20, 10],
                 [7, 7, 8, 8, 9, 9],
                 [15, 15, 15, 15, 15, 15],
             };
 
 
-            for (int i = 0; i < testCases.Length; i++)
+            //for (int i = 0; i < testCases.Length; i++)
+            //{
+            //    int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(testCases[i]);
+            //    Console.WriteLine(result);
+
+            //    int optResult = Bit_5_FindOddOccuring.FindOddOccurring_Optimized(testCases[i]);
+            //    Console.WriteLine(optResult);
+            //}
+
+            for (int i = 0; i < evenOccuranceTestCases.Length; i++)
             {
-                int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(testCases[i]);
+                int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(evenOccuranceTestCases[i]);
                 Console.WriteLine(result);
 
-                int optResult = Bit_5_FindOddOccuring.FindOddOccurring_Optimized(testCases[i]);
+                int optResult = Bit_5_FindOddOccuring.FindOddOccurring_Optimized(evenOccuranceTestCases[i]);
                 Console.WriteLine(optResult);
             }
         }
