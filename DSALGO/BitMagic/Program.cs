@@ -24,7 +24,25 @@
 
 
             //Console.WriteLine(Bit_4_PowerOfTwo.Check_Naive(1));
-            Console.WriteLine(Bit_4_PowerOfTwo.Check_Optimize(1));
+            //Console.WriteLine(Bit_4_PowerOfTwo.Check_Optimize(1));
+
+
+
+            int[][] testCases = {
+                [1, 2, 3, 2, 3, 1, 3],
+                [4, 5, 4, 5, 4],
+                [10, 20, 20, 10, 10],
+                [7, 7, 8, 8, 8],
+                [15, 15, 15, 15, 15],
+                [2, 2, 4, 4, 6, 6]
+            };
+
+
+            for (int i = 0; i < testCases.Length; i++)
+            {
+                int result = Bit_5_FindOddOccuring.FindOddOccurring_Naive(testCases[i]);
+                Console.WriteLine(result);
+            }
         }
 
     }
