@@ -1,4 +1,4 @@
-﻿// Naive
+﻿// Naive Aproach
 // Check each element's count in the array.
 // Iterate through the array, counting each element's occurrences.
 // Return the element with an odd count.
