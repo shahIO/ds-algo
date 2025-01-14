@@ -9,7 +9,7 @@ The focus here is more on conceptual knowledge and logic-building rather than ju
 
 - **Analysis of Algorithms**
 - **Mathematics** ✅
-- **Bit Magic**
+- **Bit Magic** In progress ..
 - **Recursion**
 - **Arrays**
 - **Searching**
